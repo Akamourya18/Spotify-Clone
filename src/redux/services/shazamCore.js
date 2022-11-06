@@ -9,7 +9,7 @@ export const shazamCoreApi = createApi({
         'X-RapidAPI-Key',
         import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY
       );
-
+      console.log(import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY);
       return headers;
     },
   }),
